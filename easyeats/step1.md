@@ -10,27 +10,27 @@ The app is composed of the following components:
 
 Voting-App: Frontend of the application written in Python, used by users to cast their votes. Each vote cast on the Voting app is stored in the Redis in-memory database.
 
-1. Katacode: Katacoda scenario
+1. **Katacode:** Katacoda scenario
 
-2. grafana/provisioning: Saving the dashboards and datasources
+2. **grafana/provisioning:** Saving the dashboards and datasources
 
-3. orderapi: Order API of the application written in Python, used by users to order.
+3. **orderapi:** Order API of the application written in Python, used by users to order.
 
-4. storeapi: Store API of the application written in Python, used by users to order.
+4. **storeapi:** Store API of the application written in Python, used by users to order.
 
-5. tests: unit.py makes use of pytest for unit testing the various endpoints of REST API
+5. **tests:** unit.py makes use of pytest for unit testing the various endpoints of REST API
 
-6. webhook_listener: Webhook will be sent to a webhook listener when an order has been created or canceled.
+6. **webhook_listener:** Webhook will be sent to a webhook listener when an order has been created or canceled.
 
-7. README.md: Detail of the application
+7. **README.md:** Detail of the application
 
-8. docker-compose.yaml: docker compose file for launching the application's services
+8. **docker-compose.yaml:** docker compose file for launching the application's services
 
-9. mongo-init_order.js: mongodb file for order
+9. **mongo-init_order.js:** mongodb file for order
 
-10. mongo-init_store.js: mongodb file for store
+10. **mongo-init_store.js:** mongodb file for store
 
-11. prometheus.yml: prometheus file for launching the prometheus services
+11. **prometheus.yml:** prometheus file for launching the prometheus services
 
 
 Clone the project from github.
