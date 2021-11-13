@@ -10,6 +10,7 @@
 
 - to accept order
 - must include JSON object with reason value
+
 ***Request example:***
 
 `{"reason": "accepted"}`
@@ -18,6 +19,7 @@
 
 - to deny order
 - must include JSON object with reason value and reason code
+
 ***Request example:***
 ```
 {
@@ -32,6 +34,7 @@
 
 - to cancel order
 - must include JSON object with cancel code and cancelling party
+
 ***Request example:***
 ```
 {
@@ -44,6 +47,7 @@
 
 - to set delivery status
 - must include JSON object with status
+
 ***Request example:***
 
 `{"status": "delivered"}`
