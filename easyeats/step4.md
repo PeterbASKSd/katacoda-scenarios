@@ -1,7 +1,5 @@
 # Learn with different store endpoint
 
-## Store endpoint
-
 ```[GET]``` localhost:8000/stores/<store_id>
 - to see store information
 

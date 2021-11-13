@@ -1,12 +1,10 @@
 # Learn with different order endpoint
 
-## Order endpoint
-
-[GET] localhost:8000/orders/<order_id>
+```[GET]``` localhost:8000/orders/<order_id>
 
 - to see order details
 
-[POST] localhost:8000/orders/<order_id>/accept_pos_order
+```[POST]``` localhost:8000/orders/<order_id>/accept_pos_order
 
 - to accept order
 - must include JSON object with reason value
@@ -15,7 +13,7 @@
 
 `{"reason": "accepted"}`
 
-[POST] localhost:8000/orders/<order_id>/deny_pos_order
+```[POST]``` localhost:8000/orders/<order_id>/deny_pos_order
 
 - to deny order
 - must include JSON object with reason value and reason code
@@ -30,7 +28,7 @@
 }
 ```
 
-[POST] localhost:8000/orders/<order_id>/cancel
+```[POST]``` localhost:8000/orders/<order_id>/cancel
 
 - to cancel order
 - must include JSON object with cancel code and cancelling party
@@ -43,7 +41,7 @@
 }
 ```
 
-[POST] localhost:8000/orders/<order_id>/restaurantdelivery/status
+```[POST]``` localhost:8000/orders/<order_id>/restaurantdelivery/status
 
 - to set delivery status
 - must include JSON object with status
