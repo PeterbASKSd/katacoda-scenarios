@@ -2,9 +2,13 @@
 
 ```[GET]``` localhost:8000/orders/<order_id>
 
+`curl localhost:8000/orders/1`{{execute}}
+
 - to see order details
 
 ```[POST]``` localhost:8000/orders/<order_id>/accept_pos_order
+
+`curl localhost:8000/orders/1/accept_pos_order`{{execute}}
 
 - to accept order
 - must include JSON object with reason value
@@ -14,6 +18,8 @@
 `{"reason": "accepted"}`
 
 ```[POST]``` localhost:8000/orders/<order_id>/deny_pos_order
+
+`curl localhost:8000/orders/1/deny_pos_order`{{execute}}
 
 - to deny order
 - must include JSON object with reason value and reason code
@@ -30,6 +36,8 @@
 
 ```[POST]``` localhost:8000/orders/<order_id>/cancel
 
+`curl localhost:8000/orders/1/deny_pos_order`{{execute}}
+
 - to cancel order
 - must include JSON object with cancel code and cancelling party
 
@@ -42,6 +50,8 @@
 ```
 
 ```[POST]``` localhost:8000/orders/<order_id>/restaurantdelivery/status
+
+`curl localhost:8000/orders/1/restaurantdelivery/status`{{execute}}
 
 - to set delivery status
 - must include JSON object with status
