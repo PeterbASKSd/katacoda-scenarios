@@ -34,7 +34,7 @@ Voting-App: Frontend of the application written in Python, used by users to cast
 
 
 Clone the project from github.
-`git clone https://github.com/polyu21022574x/EasyEats'`{{execute}}
+`git clone https://github.com/polyu21022574x/EasyEats`{{execute}}
 
 View the docker compose file for launching your application's services.
 `docker-compose.yaml`{{open}}
