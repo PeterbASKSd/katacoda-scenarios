@@ -39,7 +39,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal",
+    "hideHiddenFiles": true
   },
   "backend": {
     "imageid": "ubuntu:2004"

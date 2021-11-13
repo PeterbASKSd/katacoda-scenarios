@@ -37,7 +37,7 @@ List of requisite skills. For example:
 In this scenario, there are 5 main steps for users.
 
 - Step1 : Overview of EasyEats
-- Step2 : Set up the Docker-compose
+- Step2 : Setup the Docker-compose
 - Step3 : Learn with different order endpoint
 - Step4 : Learn with different store endpoint
 - Step5 : Learn with different menu endpoint
